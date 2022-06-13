@@ -8,12 +8,12 @@ function mudarH1() {
     document.getElementById('title').innerHTML = "Reflita";
 }
 
- function mostraFrase(){
-const totalFrases = frases.length;
-const numeroAleatorio = Math.floor(Math.random() * totalFrases);
+function mostraFrase() {
+    const totalFrases = frases.length;
+    const numeroAleatorio = Math.floor(Math.random() * totalFrases);
 
-mudarH1();
-text.innerHTML = frases[numeroAleatorio];
+    mudarH1();
+    text.innerHTML = frases[numeroAleatorio];
 
 }
 

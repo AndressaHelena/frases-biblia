@@ -31,7 +31,7 @@ body {
     height: calc(100vh - 0.1px);
 }
 
-p{
+p {
     font-size: 28px;
     line-height: 1.5;
 }
@@ -39,25 +39,26 @@ p{
 
 .container {
     background-color: var(--grayish-blue);
-    padding: 1.25rem 1.25rem  2rem ;
+    padding: 1.25rem 1.25rem 2rem;
     border-radius: 1rem;
     position: relative;
-    
+
 }
 
-.container h1{
+.container h1 {
     color: var(--neon-green);
     text-transform: uppercase;
     letter-spacing: 0.3rem;
     font-size: 2rem;
     margin-bottom: 1rem;
 }
- .container p{
+
+.container p {
     margin-bottom: 2rem;
     color: var(--light-cyan);
- }
+}
 
- .container button{
+.container button {
     background-color: var(--neon-green);
     font-size: 15px;
     color: var(--grayish-blue);
@@ -68,12 +69,13 @@ p{
     transition: background-color 0.3s ease-in-out;
     cursor: pointer;
     position: absolute;
-    
+
     transform: translateX(-50%);
- }
- .container button:hover{
-    background-color:  var(--light-cyan);
- }
+}
+
+.container button:hover {
+    background-color: var(--light-cyan);
+}
 
 
 .attribution {
@@ -93,7 +95,7 @@ p{
 }
 
 @media (min-width: 500px) {
-    .container{
+    .container {
         max-width: 480px;
     }
 }
