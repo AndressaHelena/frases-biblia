@@ -1,5 +1,4 @@
-const text = document.getElementById("text");
-const frases =
+export const frases =
 ["A soberba precede a ruína, e a altivez do espírito precede a queda. <br> (Provérbios 16:18)",
 "Uns se dizem ricos não tendo nada; Outros se dizem pobres tendo grandes riquezas. <br>(Provérbios 13:7)",
 "Se te mostrares fraco no dia da angústia, é que a tua força é pequena. <br> (Provérbios 24:10)",
@@ -32,15 +31,4 @@ const frases =
 "Ensina-nos a contar os nossos dias para que o nosso coração alcance sabedoria.<br> (Salmos 90:12)",
 "Estejam vigilantes, mantenham-se firmes na fé, sejam homens de coragem, sejam fortes. <br>(1 Coríntios 16:13)",
 ]
-function mudarH1() {
-    document.getElementById('title').innerHTML = "Reflita";
-}
 
-function mostraFrase(){
-const totalFrases = frases.length
-const numeroAleatorio = Math.floor(Math.random() * totalFrases)
-
-mudarH1();
-text.innerHTML = frases[numeroAleatorio]
-
-}
